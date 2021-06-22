@@ -1,43 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matcha</title>
     <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <body>
-        <h1> Mi primer etiqueta </h1>
-        <h2> Mi etiqueta </h2>
-        <h3>Mi etiqueta</h3>
-        <h4>Mi etiqueta</h4>
-        <h5>Mi etiqueta</h5>
-        <h6>Mi etiqueta</h6>
-        <p>
-        <b>Mi etiqueta</b> parrafo
-        </p>
-        <!-- <input type="text"><br> -->
-<form>
-    <label for="name">Nombre</label>
-    <input type="text" id="name" name="fname" required><br><br>
-    <input type="text" id="lastname" name="lastname"
-    placeholder="Apellido"><br><br>
-    <input type="number" id="age" name="age" placeholder="Edad"
-    min="18" max="35"><br><br>
-    <input type="email" id="email" name="email"
-    placeholder="Correo"><br><br>
-    <input type="password" id="password" name="password"
-    placeholder="Contraseña"><br><br>
-    <button type="submit">Enviar</button>
-    </form>
-
-    <img alt="Logo de matcha"
-src="https://getmatcha.com/wp-content/themes/getmatcha/img/c
-apterra.png" />
-
-
     
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" class="logo">
+       
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo Matcha">
+       
+        </a>
+
+        <nav class="navbar" >
+            <ul>
+                <li class="menu-item">Inicio</li>
+                <li class="menu-item">Catálogo</li>
+                <li class="menu-item">Contacto</li>
+                <li class="menu-item">Soporte</li>
+            </ul>
+        </nav>
+
+        <div class="actions">
+                <a href=""> Sing in</a>
+                <a href="">Register</a>
+                <button> Start free trial
+                </button>
+        </div>
+    </header>
+
+
+    <!-- Reto uno -->
+    <h1> Etiqueta 1 </h1>
+    <h2> Etiqueta 2 </h2>
+    <h3> Etiqueta 3 </h3>
+    <h4> Etiqueta 4 </h4>
+    <h5> Etiqueta 5 </h5>
+    <h6> Etiqueta 6 </h6>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Proin laoreet sem in elit lobortis consectetur.
+        Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas.
+        <!-- Reto dos -->
+        <b>Parte del párrafo, pero en letra negrita</b>
+        <strong> Otra parte del párrafo pero usando el tipo
+            de letra strong.</strong>
+    </p>
+    <!-- Reto tres-->
+
+    <h1>Formulario</h1>
+       
+    <form action="">
+        Correo: <input type="email"><br><br>
+        <!--Salto de linea br-->
+        Nombre: <input type="text"><br><br>
+        Apellido: <input type="text"><br><br>
+        Edad: <input type="number"><br><br>
+        <button type="submit"> Enviar Formulario &rarr; &ImaginaryI;</button>
+    </form>
+    <h1>Otro formulario</h1>
+    <!-- Reto 4 -->
+<p><img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" 
+alt="imagen capterra"></p>
+    <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="fname" required><br><br>
+        <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+        <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+        <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+        <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
+
 </html>
